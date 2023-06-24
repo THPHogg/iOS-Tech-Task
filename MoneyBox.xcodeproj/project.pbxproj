@@ -62,6 +62,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CD3D6672A4702940088F95E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0CD3D6682A4702A00088F95E /* LoginView */,
+				0CD3D6692A4702AE0088F95E /* UserAccountView */,
+				0CD3D66A2A4702C90088F95E /* IndividualAccountView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0CD3D6682A4702A00088F95E /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				B228EA6A2880B30B00B35F16 /* Login.storyboard */,
+				B228EA692880B30B00B35F16 /* LoginViewController.swift */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+		0CD3D6692A4702AE0088F95E /* UserAccountView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UserAccountView;
+			sourceTree = "<group>";
+		};
+		0CD3D66A2A4702C90088F95E /* IndividualAccountView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = IndividualAccountView;
+			sourceTree = "<group>";
+		};
+		0CD3D66B2A4703440088F95E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0CD3D66C2A47034D0088F95E /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
 		B2CA46BF279350880041B3A5 = {
 			isa = PBXGroup;
 			children = (
@@ -84,8 +131,9 @@
 		B2CA46CA279350880041B3A5 /* MoneyBox */ = {
 			isa = PBXGroup;
 			children = (
-				B228EA6A2880B30B00B35F16 /* Login.storyboard */,
-				B228EA692880B30B00B35F16 /* LoginViewController.swift */,
+				0CD3D66B2A4703440088F95E /* Models */,
+				0CD3D6672A4702940088F95E /* Views */,
+				0CD3D66C2A47034D0088F95E /* ViewModifiers */,
 				B2CA46CB279350880041B3A5 /* AppDelegate.swift */,
 				B2CA46D42793508A0041B3A5 /* Assets.xcassets */,
 				B2CA46D62793508A0041B3A5 /* LaunchScreen.storyboard */,
